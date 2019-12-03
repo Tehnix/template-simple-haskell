@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "*.cabal": true,
+    ".stack-work": true
+  },
+  "editor.formatOnSave": true,
+  "hic.executablePath": "stack",
+  "hic.arguments": "exec ghcide -- --lsp",
+  "editor.tabSize": 2
+}
